@@ -1,0 +1,76 @@
+header,nav,aside,div,footer{
+border-style: 1px;
+border-style: solid;
+color:yellow; 
+font-size: 20pt;
+text-align: center;
+background-color:brown;
+border-color: blue;
+margin: 10px;
+}
+aside {
+	font-size: 15pt;
+	color:white;
+	float: left;
+	width: 76%;
+	background-image: url("img/cover.jpg") ;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: auto;
+}
+body{
+	background-image:url("back/back2.jpg") ; 
+	background-size: 100%;
+}
+.banner{
+	text-align: left;
+	color:white;
+	font-size: 10pt;
+}
+div{
+	height: 500px;
+}
+div {
+	font-size: 10pt;
+	float: right;
+	width:20%;
+	text-align: center;
+	border-color: blue;
+}
+footer{
+	height: auto;
+}
+header{
+		height: 50px;
+		background-image: url("img/welcome.gif") ;
+		background-repeat:no-repeat;
+		background-size: 30%;
+}
+nav{
+	width: 98%;
+	height: 50px;
+}
+footer {
+	clear: both;
+	width: 98.5%;
+	height: 30%;
+}
+li {
+	float: left;
+    display: inline; 
+	font-size: 14pt;
+}
+li a {
+	display : block;
+	padding: 13px;
+	color: yellow;
+	text-align: center;
+	text-decoration: none;
+}
+li a:hover {
+	background-color:blue ;
+	color: white;
+	font-size: 15pt;
+	border-radius: 7px
+}
+

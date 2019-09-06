@@ -1,0 +1,66 @@
+header,nav,aside,footer{
+border-style: 1px;
+border-style: solid;
+color:white; 
+font-size: 20pt;
+text-align: center;
+border-radius: 0px;
+background-color: rgba(27,11,0,0.5);
+border-color:brown;
+margin: 10px;
+float:center;
+font-family: Georgia,times,serif;
+}
+aaside {
+	float: center;
+	width: 98.5%;
+
+}
+aside img{
+	width: 300px;
+	height: 300px;
+}
+aside video{
+	width: 60%;
+	height: 30%;
+}
+body{
+	background-image:url("back/back2.jpg") ; 
+	background-size: 100%;
+	text-align:center;
+}
+aside,div{
+	height: auto;
+}
+header,footer{
+	height: auto;
+}
+
+nav{
+	width: 98.5%;
+	height: 50px;
+}
+footer {
+	clear: both;
+	width: 98.5%;
+	height: 30%;
+}
+li {
+	float: left;
+    display: inline; 
+	font-size: 14pt;
+}
+li a {
+	display : block;
+	padding: 13px;
+	color: yellow;
+	text-align: center;
+	text-decoration: none;
+}
+li a:hover {
+	background-color:blue ;
+	color: white;
+	font-size: 15pt;
+	border-radius: 7px
+}
+
